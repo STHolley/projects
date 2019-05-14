@@ -1,0 +1,98 @@
+<html>
+	<head>
+		<script src="js/gameoflife.js"></script>
+		<link rel="stylesheet" href="css/gameoflife.css"/> 
+	</head>
+	<body onload="main(null)" onmousedown="setFlag(1)" onmouseup="setFlag(0)">
+		<div>
+			<p>
+				<h2>
+					Conway's Game of Life
+				</h2>
+				<hr/>
+				Also known as the <b>Game of Life</b> or simply <b>Life</b>, 
+				is a 
+				<a href="http://www.conwaylife.com/wiki/Cellular_automaton">
+					<b>cellular automaton</b> 
+				</a>
+				devised by the British mathematician 
+				<a href="http://www.conwaylife.com/wiki/John_Horton_Conway">
+					John Horton Conway
+				</a>
+				 in 1970. It is the best-known example of a cellular automaton.
+				The "game" is actually a zero-player game, meaning that its evolution is 
+				determined by its initial state, needing no input from human players. 
+				One interacts with the Game of Life by creating an initial configuration 
+				and observing how it evolves.
+				<br/>
+				<h2>
+					Rules
+				</h2>
+				<hr/>
+				The universe of the Game of Life is an infinite two-dimensional 
+				grid of square cells, each of which is in one of two possible states, live 
+				or dead. Every cell interacts with its eight neighbours, which are the 
+				cells that are directly horizontally, vertically, or diagonally adjacent. 
+				At each step in time, the following transitions occur:
+				<ol>
+					<li>
+						Any live cell with fewer than two live neighbours dies (referred to as underpopulation or exposure).
+					</li>
+					<li>
+						Any live cell with more than three live neighbours dies (referred to as overpopulation or overcrowding).
+					</li>
+					<li>
+						Any live cell with two or three live neighbours lives, unchanged, to the next generation.
+					</li>
+					<li>
+						Any dead cell with exactly three live neighbours will come to life.
+					</li>
+				</ol>
+				<h2>
+					Links
+				</h2>
+				<hr/>
+				<a href="http://www.conwaylife.com/wiki/Conway's_Game_of_Life">
+					<b>Game of Life WIKI</b>
+				</a>
+				<br/>
+				<h2>
+					Controls
+				</h2>
+				<hr/>
+			</p>
+			<p>
+				Click the tiles to swap their state between alive and dead.
+			</p>
+			<p>
+				Update: 
+				<button id="gen" onclick="nextGeneration()">Next Generation</button>
+			</p>
+			<p id="set">
+				Manual set: 
+				X:<input type="text" id="x"></input>
+				Y:<input type="text" id="y"></input>
+				<button id="query" onclick="changeValue()">Set</button>
+			</p>
+			<form id="clear">
+				<p>
+					Import: 
+					<input type="file" id="reader" onchange="fileSubmitted(this)" accept=".txt"></input>
+					Export: 
+					<input type="button" id="down" onclick="genAndDownload()" value="Save State"></input>
+				</p>
+			</form>
+			<p id="size">
+				Grid Size: <span id="res">50</span>
+				<input class="slider" type="range" onchange="changeGridSize(this)" min="5" max="100" value="50"></input>
+			</p>
+			<p id="multiple">
+				Run: 
+				<input type="text" id="simulate"></input>
+				simulations.
+				<button id="runsim" onclick="runMultiple()">Run</button>
+			</p>
+		</div>
+		<div id="grid" style="white-space: pre-line" class="unselectable"></div>
+	</body>
+</html>
