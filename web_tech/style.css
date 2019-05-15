@@ -1,0 +1,285 @@
+::-webkit-scrollbar{
+	width: 12px;
+	height: 100%;
+	position: absolute;
+}
+::-webkit-scrollbar-track{
+	background-image: url("./img/bg.jpg");
+	opacity: 0.75;
+}
+::-webkit-scrollbar-thumb{
+	background-color: #aaa;
+}
+body{
+	margin: 0;
+	font-size: 100%;
+}
+option{
+	display:none;
+}
+#fade1, #fade2{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.wrapper{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	min-width: 1200px;
+	padding: 0;
+	margin: 0;
+}
+.elementBar {
+	position: absolute;
+	left: 5%;
+	width: 20%;
+	background-image: url("./img/bg.jpg");
+	height: 95%;
+	top: 2.5%;
+	margin: 0;
+	border: 2px solid black;
+	overflow: auto;
+	direction: rtl;
+	color: white;
+	font-size: 20px;
+	border-radius: 0 20px 20px 0;
+	box-shadow: 5px 5px 20px #000;
+	opacity: 0.75;
+}
+.elementBar p{
+	opacity: 1;
+}
+.styleBar {
+	position: absolute;
+	right: 5%;
+	width: 20%;
+	background-image: url("./img/bg.jpg");
+	height: 45%;
+	top: 2.5%;
+	margin: 0;
+	border: 2px solid black;
+	overflow: auto;
+	border-radius: 20px 0 0 20px;
+	box-shadow: 5px 5px 20px #000;
+	opacity: 0.75;
+}
+.styleBar p{
+	opacity: 1;
+}
+.mainFrame{
+	position: absolute;
+	width: 45%;
+	top: 5%;
+	left: 27.5%;
+	background-image: url("./img/bg.jpg");
+	height: 75%;
+	border: 2px solid black;
+	border-radius: 20px;
+	margin: 0;
+	box-shadow: 5px 5px 20px #000;
+	opacity: 0.95;
+}
+.customFrame{
+	border: 0;
+	padding: 0;
+	margin: 5%;
+	width: 90%;
+	height: 90%
+}
+.buttonContainer{
+	position: absolute;
+	bottom: 5%;
+	left: 27.5%;
+	width: 45%;
+	height: 10%;
+	border: 2px solid black;
+	border-radius: 20px;
+	margin: 0;
+	box-shadow: 5px 5px 20px #000;
+	opacity: 0.95;
+	background-image: url("./img/bg.jpg");
+}
+.buttonContainer button{
+	font-size: 3vh;
+	width: 50%;
+	height: 100%;
+	float: left;
+	outline: 0;
+	border: 0;
+	transition: box-shadow 0.2s;
+	transition: text-shadow 0.2s;
+}
+.gen{
+	border-radius: 20px 0px 0px 20px;
+	background-color: rgba(127,255,127,0.25);
+}
+.clear{
+	border-radius: 0px 20px 20px 0px;
+	background-color: rgba(255,127,127,0.25);
+}
+.gen:active {
+	box-shadow: 10px 10px 100px #666 inset;
+	text-shadow: 5px 5px 10px #666;
+	transition: box-shadow 0.2s;
+	transition: text-shadow 0.2s;
+}
+.clear:active{
+	box-shadow: -10px 10px 100px #666 inset;
+	text-shadow: -5px 5px 10px #666;
+	transition: box-shadow 0.2s;
+	transition: text-shadow 0.2s;
+}
+.propertyEdit{
+	background-image: url("./img/bg.jpg");
+	position: absolute;
+	bottom: 2.5%;
+	right: 5%;
+	width: 15%;
+	padding: 2.5%;
+	height: 35%;
+	margin: 0;
+	padding: 2.5%;
+	resize: none;
+	font-size: 30px;
+	border: 2px solid black;
+	outline: none;
+	border-radius: 20px 0 0 20px;
+	box-shadow: 5px 5px 20px #000;
+	opacity: 0.75;
+}
+.elementBar ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+.elementBar .drop{
+	width: 100%;
+	height: 75px;
+	min-height: 50px;
+	max-height: 20%;
+	font-size: 44px;
+	border: 0;
+	padding: 0;
+	background-color: rgba(255,255,255,0.5);
+	outline: none;
+}
+.elementBar .tag{
+	width: 100%;
+	height: 75px;
+	min-height: 50px;
+	max-height: 20%;
+	font-size: 44px;
+	border: 0;
+	padding: 0;
+	background-color: rgba(255,255,255,0);
+	outline: none;
+}
+.elementBar .buttonDropList li{
+	border-left-width: 10px;
+	border-left-color: #666;
+	border-left-style: solid;
+}
+.tag:hover{
+	background-color: rgba(255,255,255,0.5);
+}
+.drop:hover{
+	background-color: rgba(255,255,255,1);
+}
+.selected {
+	font-weight: bold;
+	color: #555;
+}
+.styleBox{
+	font-family: Arial;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 10px;
+	border-bottom: 2px solid black;
+	width: 100%;
+	display: none;
+}
+.styleBox input{
+	 font-size:20px;
+}
+.styleBox .boxHead {
+	text-align: center;
+}
+.styleBox .boxField{
+	width: 100%;
+	height: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.styleBox .styleLabel{
+	margin-left: 5%;
+	width: 45%;
+	display: inline-block;
+	float: left;
+
+}
+.styleBox .inputArea{
+	margin-right: 5%;
+	width: 45%;
+	display: inline;
+	float: right;
+	border: 0;
+	height: 20px;
+}
+.styleBox .slider{
+	margin: 1px;
+	margin-right: 5%;
+	margin-left: 0;
+	width: calc(95% - 22px);
+	display: inline;
+	height: 20px;
+}
+.styleDrop{
+	list-style-type: none;
+	padding: 0;
+	padding-left: 25%;
+	margin: 0;
+	margin-top: 20px;
+	width: 75%;
+	font-size: small;
+	border-bottom: 2px solid black;
+}
+.boxField div{
+	height: 40px;
+}
+.backOff{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.7);
+}
+.plainText{
+	width: 80%;
+	height: 80%;
+}
+
+.popbox{
+	position: fixed;
+	width: auto;
+	height: auto;
+	background-color: rgba(255,255,255,0.8);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 20px;
+	border: 2px inset #ddd;
+	font-family: Arial;
+	font-size: 1vh;
+	max-width: 10%;
+	max-height: 30%;
+}
+.popbox h1, .popbox p{
+	text-align: center;
+}
