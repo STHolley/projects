@@ -1,0 +1,6 @@
+CSC1021,Programming 1,20
+CSC1022,Programming 2,30
+CSC1023,Software Engineering Professional,15
+CSC1024,Computer Architecture,20
+CSC1025,Mathematics for Computer Science,20
+CSC1026,Web Development,15

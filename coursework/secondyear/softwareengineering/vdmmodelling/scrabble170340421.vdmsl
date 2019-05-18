@@ -1,0 +1,88 @@
+-- CSC2021 Coursework Semester 2 2019
+-- Name: Samuel Holley
+-- StdNo: 170340421
+
+-- Fill in above lines before submission.
+
+-- 
+
+types
+
+Tile = char
+inv t == t in set tileSet;
+
+Word = seq of Tile;
+
+Dictionary = set of Word;
+
+LetterMap = map char to nat;
+
+Player = token;
+
+ScoreMap = map Player to nat;
+
+state Scorer of
+thePoints: LetterMap -- points scored for each tile
+theTiles: LetterMap -- initial distribution of tiles 
+theWords: Dictionary
+thePlayers: ScoreMap
+inv mk_Scorer(thePoints,theTiles,theWords, thePlayers) ==
+	dom thePoints = tileSet and dom theTiles = tileSet
+	and theWords <> {}
+init s ==
+	s = mk_Scorer( pointsMap, tilesLeft, smallWords, {|->} )
+end;
+
+functions
+GetWordScore: Word * LetterMap -> nat
+GetWordScore(word,points) ==
+	if len word = 0
+	then 0
+	else points(hd word) + GetWordScore(tl word, points)
+;
+
+Occurrences: Tile * Word -> nat
+Occurrences(tile,word) == len[word(i) | i in set inds word & word(i) = tile];
+
+EnoughTiles: Word * LetterMap -> bool
+EnoughTiles(word, tiles) == 
+	forall i in set inds word & tiles(word(i)) >= Occurrences(word(i), word)
+;
+
+ValidWord: Word * Dictionary -> bool
+ValidWord(word, dictionary) ==
+	if(
+		forall i in set dictionary & 
+			if
+				if len word = len i
+				then (
+					forall j in set inds word &
+						if (word(j) = i(j)) or (word(j) = '_')
+						then true
+						else false
+				)
+				else false
+			then false
+			else true
+		)
+		then false
+		else true
+;
+
+  
+operations
+ScoreWord: Player * Word ==> ()
+ScoreWord(player, word) ==
+	(thePlayers := thePlayers ++ {player |-> GetWordScore(word, thePoints) + thePlayers(player)};
+ 		RemoveTiles(word);)
+pre EnoughTiles(word,theTiles) and ValidWord(word, theWords);
+
+AddPlayer: Player ==> ()
+AddPlayer(player) == 
+	thePlayers := thePlayers munion {player |-> 0}
+;
+
+RemoveTiles: Word ==> ()
+RemoveTiles(word) ==
+	theTiles := theTiles ++ {t |-> theTiles(t) - Occurrences(t, word) | t in set dom theTiles}
+;

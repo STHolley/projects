@@ -1,0 +1,7 @@
+CSC4021,Learning to use Scratch,30
+CSC4022,Why Python is the most advanced and complex language,20
+CSC4023,Lego Mindstorms,40
+CSC4024,My first gamemaker game,10
+CSC4025,Programming a full autonomous car using assembly,5
+CSC4026,Brewing coffee for real developers,60
+CSC4027,Software Engineering Professional,25

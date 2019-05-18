@@ -1,0 +1,26 @@
+Stark,Tony
+Rodgers,Steve
+Odinson,Thor
+Banner,Bruce
+Barton,Clint
+Maximoff,Wanda
+Maximoff,Pietro
+Shade,Victor
+Charles,Luke
+Romanoff,Natasha
+Danvers,Carol
+Wilson,Samuel
+Rhodes,James
+Parker,Peter
+Lang,Scott
+Barnes,James
+Strange,Stephen
+Fury,Nick
+Van Dyne,Hope
+Coulson,Phil
+89P13,Rocket
+Luphomoid,Nebula
+Quill,Peter
+The Destroyer,Drax
+Titan,Gamora
+Groot,I am

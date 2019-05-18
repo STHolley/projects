@@ -1,0 +1,183 @@
+body {
+	background-color: #C7C1C1; /* sets the background behind the container to a slight grey colour */
+}
+hr {
+	clear: both; /* Makes it so the hr tag never displays over a div */
+	height: 10px; /* Increases the height of the hr line */
+	background-color: #004B83; /* Sets the colour to the dark blue colour */
+	border-width: 0; /* Removes the border */
+}
+p{
+	padding: 10px; /* Gives all text a padding so it is away from all edges */
+	margin: 0px;
+}
+#container {
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; /* Sets the default font for the document to Palatino Linotype */
+	font-size: 16px; /* Sets the font size for all text to 16px */
+	line-height: 1.5; /* Sets the line spacing to 1.5x */
+	margin: auto; /* Centers the container */
+	padding: 0px; /* Removes all padding from the container */
+	min-width: 510px; /* Sets the minimum width of the container to 510px whenever the screen size changes */
+	max-width: 960px; /* Sets the maximum width of the container to 960px whenever the screen size changes */
+	background-color: #fff; /* Sets the container colour to white */
+}
+#bsl ul {
+	margin: 0px; /* Removes some of the spacing in the unordered list in the bsl section */
+	padding-left: 50px; /* Intents the list contents */
+}
+.divImage {
+	float: right; /* Moves the image to the right of the screen */
+	margin: 5px; /* Spaces the image slightly from all edges */
+	background-image: url(https://internal.cs.ncl.ac.uk/modules/2017-18/csc1026/bsl/css/sign_language.png);
+	background-repeat: no-repeat;
+	width: 96px;
+	height: 82px;
+}
+.heading {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; /* All headings use the font Lucida instead of Palatino */
+	color: #004B83; /* Changes the text colour to a dark blue as defined by the example */
+	margin: 10px; /* Moves the heading away from the edge of the container */
+}
+.heading span{
+	color: #DE1F3E; /* Selected text within the heading becomes a dark red colour */
+}
+.nav {
+	width: 100%; /* Stretches the nav bar across the container */
+	height: 54px; /* Sets the height of the nav bar */
+	background-color: #004B83; /* Turns the nav bar a dark blue */
+}
+.nav h1{
+	position: absolute; /* Adjusts the title position to below the nav bar */
+	top: 64px;
+}
+.nav ul {
+	float: right; /* Moves the nav bar text to the right of the nav bar */
+	list-style-type: none; /* Removes the points from the list */
+	margin: 0px; /* Keeps the text centered in the div */
+	padding: 0px;
+	overflow: hidden; /* Moves the list to be in line */
+}
+.nav li {
+	float: left; /* Keeps the list in order */
+}
+.nav li a{
+	display: block; /* Centers the text within the block */
+	padding: 15px; /* increases the gap between list options */
+	text-decoration: none; /* Removes text decorations from the link such as underlining and colour changing */
+	color: #fff; /* Sets the font colour to white */
+	text-align: center; /* Centers the text */
+}
+.nav a:hover {
+	background-color: #037EAF; /* Changes the colour of the nav button when hovered to a lighter colour */
+}
+.tohide {
+	display: none; /* Hides the extra list items */
+}
+.flikrDisp{
+	float: right; /* Moves the flikr display to the right */
+	padding: 20px; /* Centers the image within the image border */
+	margin: 10px;
+	width: 380px; /* Sets the size of the image to slightly smaller than the border */
+	height: 350px;
+	background-image: url(https://internal.cs.ncl.ac.uk/modules/2016-17/csc1026/flags/css/420x370-box.png); /* Sets the background image to the curved border asset */
+	background-repeat: no-repeat; /* Stops the background image from repeating */
+}
+.mapImg{
+	width: 100%; /* Sets the map size to 100% of the width of the display */
+}
+.worldDisp {
+	float: left; /* Moves the display to the left */
+	padding: 10px; /* Keeps the display from touching the edge of the container */
+	margin-bottom: 10px;
+	margin-left: 20px;
+	border-style: double; /* Gives the border 2 lines instead of one */
+	border-color: #004B83; /* Sets the border colour to the dark blue */
+	width: 40%; /* Sets the width to 40% of the container width */
+	font-size: 13px; /* Shrinks the text in the world display */
+}
+.mapView{
+	text-align: center; /* Centers the small text below the map */
+}
+.legTitle{
+	font-weight: bold; /* Makes the text saying "Legend:" bold */
+}
+.legendText img{
+	float: left; /* Keeps all maps to the side so that the text displays as a block next to them */
+}
+.legendText p{
+	padding: 5px; /* Moves the text closer vertically */
+	padding-left: 40px; /* Moves the text across horizontally past the flags */
+}
+.legendText br {
+	height: 1px;
+}
+.legBar {
+	clear: none; /* Stops the bar in the legend from clearing any divides inside */
+	background-color: #004B83; /* Sets the colour to a dark blue colour */
+	height: 2px; /* Shrinks the hr bar */
+}
+.lingText {
+	width: 50%; /* Sets the width of the text to 50% of the container size, leaving a small gap between the world display and the text */
+	display: inline-block; /* Keeps the div as a block whilst keeping the text inline */
+	float: left;
+}
+.lingText ul {
+	padding: 10px; /* Spaces the list vertically between the text */
+	margin: 0; /* Removes the gap between the text and the list */
+	margin-left: 40px; /* Moves the list to indent it within the text */
+}
+.ytVid {
+	background-image: url(https://internal.cs.ncl.ac.uk/modules/2017-18/csc1026/bsl/css/460x320-box.png); /* Sets the background image to one of the border assets */
+	background-repeat: no-repeat; /* Stops the background image from repeating */
+	float: right; /* Moves the video to the right of the screen */
+	padding: 15px; /* Spaces the video away from the edge of the container */
+	margin: 15px; /* Moves the youtube video down slightly */
+	width: 430px; /* Sets the div size to the background size */
+	height: 290px;
+}
+.ytVid object {
+	padding: 5px; /* Centers the video in the border */
+	width: 420px; /* Sets the video size to just smaller than the div it is in */
+	height: 220px;
+}
+.ytVid p{
+	text-align: center; /* Centers the text below the video */
+	width: 420px; /* Stops the text from overflowing past the video width */
+	font-size: 12px; /* Shrinks the text below the video */
+}
+.signCont {
+	padding-left: 10px; /* Spaces the items slightly away from the edge */
+}
+.item {
+	float: left; /* Keeps all items floating left so they shuffle based on available space */
+	margin: 10px; /* Spaces the boxes 20 pixels apart */
+	border: 1px solid; /* Gives a solid border */
+	border-color: #666666; /* Sets the border colour to grey */
+	width: 100px; /* Sets the width to slightly larger than the image width */
+}
+.item p {
+	font-size: 14px; /* Shrinks the text slightly */
+	text-align: center; /* Centers the text */
+	background-color: #004B83; /* Sets the background colour for the label to dark blue */
+	color: white; /* Sets the font colour to white */
+	padding: 3px; /* Slightly indents the text */
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-weight: bold; /* Makes the text bold */
+}
+.invisibleBreak{
+	clear: both; /* Moves the break line away from all floated divs */
+	height: 10px; /* Sets the height to 10px like the hr breaks */
+	background-color: #004B83; /* Sets the colour to a dark blue colour */
+}
+.smallDiv{
+	height: 8px; /*Shrinks the hr tags in the BSL section */
+}
+.bottom{
+	margin-bottom: 0px; /* Removes the margin from the bottom of the last hr tag */
+}
+.EndCredit {
+	text-align: right; /* Moves the final text to the right */
+	font-size: 12px; /* Shrinks the font for the final text */
+	padding-bottom: 20px; /* Increases the size of the container slightly */
+}
