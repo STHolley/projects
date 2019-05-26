@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorLightPrimary">#E5E5E5</color>
+    <color name="colorLightSecondary">#CB1E31</color>
+    <color name="colorLightAccent">#000000</color>
+    <color name="colorLightTranslucent">#CCEEEEEE</color>
+
+    <color name="colorDarkPrimary">#3D4249</color>
+    <color name="colorDarkSecondary">#6EA6BF</color>
+    <color name="colorDarkAccent">#E5E5E5</color>
+    <color name="colorDarkTranslucent">#CC393E46</color>
+
+    <color name="colorNorthumberlandYellow">#FED559</color>
+</resources>

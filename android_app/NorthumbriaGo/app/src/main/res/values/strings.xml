@@ -1,0 +1,520 @@
+<resources>
+    <string name="app_name">Northumberland Go!</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <string name="facebook_app_id">822946264715438</string>
+    <string name="fb_login_protocol_scheme">fb822946264715438</string>
+
+    <string name="facebook_application_id" translatable="false">822946264715438</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb822946264715438</string>
+
+    <string name="navigation_drawer_open">"Open navigation drawer"</string>
+    <string name="navigation_drawer_close">"Close navigation drawer"</string>
+
+    //Preferences
+    <string name="pref_loc">user_preferences</string>
+    <string name="pref_user">login_username</string>
+    <string name="pref_login">login_type</string>
+    <string name="login_manual">manual</string>
+    <string name="login_facebook">facebook</string>
+    <string name="login_google">google</string>
+    <string name="pref_dark">theme_mode</string>
+    <string name="pref_dis">disability_mode</string>
+    <string name="pref_travel">travel_mode</string>
+
+    <string name="recents">recent_places</string>
+
+    <string name="default_date">dd-MM-yyyy</string>
+
+    //Quote
+    <string name="main_quote">
+        <b>Welcome To The North!</b>
+        \nAre you ready to discover what all the buzz is about?
+    </string>
+
+    //Main string
+    <string name="start_button">"Let's explore!"</string>
+
+
+    //Home string
+    <string name="home">"Home"</string>
+    <string name="camera_overlay">"Enable the camera to access further features"</string>
+    <string name="location_nearby">"Location Nearby!"</string>
+    <string name="cancel_route">"Cancel Route"</string>
+    <string name="nearby">"Nearby"</string>
+    <string name="results">"Results"</string>
+    <string name="clear">"Clear"</string>
+    <string name="distance_unit">" km away"</string>
+    <string name="get_directions">"Get Directions"</string>
+    <string name="get_started">"Get Started!"</string>
+    <string name="snap">"Snap!"</string>
+
+    <string name="nav_tut_1">"To see the map"</string>
+    <string name="nav_tut_2">"Recently visited place"</string>
+    <string name="nav_tut_3">"List of your achievements"</string>
+    <string name="nav_tut_4">"Personalise this app"</string>
+    <string name="nav_tut_5">"FAQ page"</string>
+
+    <string name="cam_help">"Camera Help"</string>
+
+    //Recent Places string
+    <string name="recent_places">"Recent Places"</string>
+
+    //Achievement string
+    //Recent Places string
+    <string name="achievement">"Achievement"</string>
+    <string name="council_signature">"Northumberland Council"</string>
+    <string name="achievement_help">"Achievement Help"</string>
+    <string name="achievement_locked">"Achievement Locked"</string>
+
+    //Settings string
+    <string name="settings">"Settings"</string>
+    <string name="visual_settings">"Visual Settings"</string>
+    <string name="dark_mode">"Enable Dark Mode"</string>
+    <string name="device_settings">"Device Settings:"</string>
+    <string name="enable_location">"Enable Location"</string>
+    <string name="enable_camera">"Enable Camera"</string>
+    <string name="map_settings">"Map Settings"</string>
+    <string name="disability_access">"Disability Access Required"</string>
+    <string name="default_transport">"Default Mode of Transport:"</string>
+    <string name="walking">"Walking"</string>
+    <string name="public_transport">"Public Transport"</string>
+    <string name="car">"Car"</string>
+    <string name="logout">"Logout"</string>
+    <string name="settings_enabled">"You have already enabled this setting"</string>
+    <string name="settings_help">"Settings Help"</string>
+
+    //Help string
+    <string name="help">"Help"</string>
+
+    //Tutorial string
+    <string name="tutorial">"Tutorial"</string>
+
+
+    <string name="more">"More"</string>
+
+
+
+    //Map Tutorial
+    <string name="map_tutorial">
+        <b>You can search for locations using the search bar:</b>
+
+        \n- You can use <b>#all</b> to show all locations
+        \n- You could type <b>#castle</b> to show all castles
+        \n- You can find a list of hashtags in the Help Section
+        \n- Press <b>more</b> on a location to view information about it
+        \n- Press <b>get directions</b> to get a route to the location
+        \n- Then press the arrow on the right to view readable directions
+        \n
+        \nIf you click <b>nearby</b>, you will be shown the top 3 closest attraction to you
+        \n
+
+        \nPress the top right target-like button to centre the map on your location
+        \n
+        \nPress the top left button or swipe from the left to view the Navbar
+        \n
+        \n<b>You can press the question mark(?) to see help for this section at any time</b>
+    </string>
+
+    //Camera Help
+    <string name="cam_tutorial">
+        \nIn order to complete your trip and possibly <b>unlock</b> an achievement, make sure your phone is first <b>tilted upright</b>.
+        \n
+        \nThen press the <b>\'Snap\'</b>, button.
+        \n
+        \nIf you are eligible for an achievement then you will be given an alert telling you new achievements have been unlocked.
+    </string>
+
+
+    //Recent Places Tutorial
+    <string name="recent_places_tutorial">
+        Here you can see all the locations you have visited/calculated routes for during this session of Northumberland GO!
+        \n
+        \nPress on the locations from here to view more information about them.
+        \n
+        \nThis list of recent places will always be saved, so long as you are signed in.
+    </string>
+
+    //Achievement Tutorial
+    <string name="achievement_tutorial">
+        The Achievements page allows you to see all the achievements in the app.
+        \n
+        \nIf the achievement logo is in colour, you have unlocked this achievement.
+        \nIf it is greyed out, then you still need to unlock it.
+        \n
+        \nPressing on an achievement will show you its achievement card\n
+        \n
+        If you have unlocked the achievement you can share its certificate on Facebook or a link to the certificate using any app you desire.
+    </string>
+
+    //Settings Tutorial
+    <string name="settings_tutorial">
+        On this page you can personalise the app.
+        \n
+        \n-Enabling dark mode will change the entire apps colour scheme, including the maps.
+        \n-If not already enabled, you can enable your location and camera.
+        \n-If you require disabled access you can restrict locations here.
+        \n-You can also set the default mode of transport used to calculate routes.
+        \n
+        \nThis is the only place you can <b>log out</b> of your account.
+    </string>
+
+    //Help Tutorial
+    <string name="help_tutorial">
+        Here is a list of frequently asked questions and their answers.
+        \n
+        \nThis page may give you more information about the app, however for any other questions of information, view our user guide on our website…
+        \n
+        \n<b>http://homepages.cs.ncl.ac.uk/2018-19/CSC2022/Team12/website/</b>
+    </string>
+
+
+    //FAQ
+    <string name="faq_q1">I am not sure what to do with the app, what do I do?</string>
+    <string name="faq_a1">Press the &lt;b&gt;(?)&lt;/b&gt; button, found in the top right of every window of the app</string>
+
+    <string name="faq_q2">What happens if I am outside of Northumberland, can I still use the app ?</string>
+    <string name="faq_a2">Yes, you can but all the destinations in the app are in Northumberland.</string>
+
+    <string name="faq_q3">How do I find the closest destination near me?</string>
+    <string name="faq_a3">Go to the homepage, press the &lt;b&gt;Nearby&lt;/b&gt; bar at the bottom of the screen. This will show the top 3 closest locations to you.</string>
+
+    <string name="faq_q4">How do I log out?</string>
+    <string name="faq_a4">Go to the &lt;b&gt;Settings&lt;/b&gt; option in the side navigation bar. On the bottom of the menu there will be a \'logout\' button.</string>
+
+    <string name="faq_q5">Do I require internet access to use the app?</string>
+    <string name="faq_a5">To use the app you need to have mobile data and location services enabled.</string>
+
+    <string name="faq_q6">I have arrived at the destination but the &lt;b&gt;Location Nearby&lt;/b&gt; button has not shown up, what do I do?</string>
+    <string name="faq_a6">Usually problems like this will be fixed if you restart the app. Also make sure that you have a stable internet connection and location services are still enabled.</string>
+
+    <string name="faq_q7">How do I search for a location by its category?</string>
+    <string name="faq_a7">The app will only recognise a search for categories if a &lt;b&gt;\'#\'&lt;/b&gt; symbol precedes the search term. E.g. &lt;b&gt;#garden&lt;/b&gt; will show all gardens.</string>
+
+    <string name="faq_q8">How do I get directions to a location?</string>
+    <string name="faq_a8">To display a route to a location on the map, in either the &lt;b&gt;Near Me&lt;/b&gt; section or the &lt;b&gt;Results&lt;/b&gt; section after a search, tap the &lt;b&gt;More&lt;/b&gt; button next to the location. On the new location page, tap the &lt;b&gt;Get Directions&lt;/b&gt; button and a route should display on your map. &lt;i&gt;Note that from here you can drag a panel from the right with more detailed directions.</string>
+
+    <string name="faq_q9">The attraction I’m looking for isn’t showing up in the results?</string>
+    <string name="faq_a9">If you are sure you have made no spelling errors in your search terms, type &lt;b&gt;#all&lt;/b&gt; into the search bar and check the results shown. &lt;b&gt;#all&lt;/b&gt; will display all the locations in our app. We apologise if your attraction is still not showing as this means it is not yet in our database.</string>
+
+    <string name="faq_q10">Will the app make posts on my Facebook/Google?</string>
+    <string name="faq_a10">The app will not make any posts to your social media without your knowledge or permission. Social media posts will only be made if you decide to share an achievement from the achievement page.</string>
+
+    <string name="faq_q11">How can I share my progress with friends?</string>
+    <string name="faq_a11">When you unlock achievements, a Facebook logo will appear next to the now colourful logo. You can press this to share the achievement logo directly to Facebook. You can also press the share symbol next to this button to share a certificate of your achievement as a link, using any messaging platform you desire.</string>
+
+    <string name="faq_q12">The app is too bright, is there a dark mode?</string>
+    <string name="faq_a12">Go to the &lt;b&gt;Settings&lt;/b&gt; page, turn the switch next to &lt;b&gt;Enable Dark mode&lt;/b&gt; on and the app theme will change immediately.</string>
+
+    <string name="faq_q13">Where can I leave feedback and suggestions?</string>
+    <string name="faq_a13">Any feedback or suggestions are welcome. Contact us information can be found on our website at&lt;br/&gt;http://homepages.cs.ncl.ac.uk/2018-19/CSC2022/Team12/website/</string>
+
+    <string name="faq_q14">I no longer want to travel to the attraction I have selected, how do I cancel my route?</string>
+    <string name="faq_a14">Press on the arrow on the right hand side of the map screen to bring up the readable directions. At the top of the directions is a &lt;b&gt;Cancel Route&lt;/b&gt; button. Press this and the route will disappear.</string>
+
+    <string name="faq_q15">I can only visit attractions with disabled access, is there any help for me?</string>
+    <string name="faq_a15">Go to the &lt;b&gt;Settings&lt;/b&gt; page, turn the switch next to &lt;b&gt;Disability Access Required&lt;/b&gt; on and then only locations that have disabled access will appear on the map/will be searchable.</string>
+
+    <string name="faq_q16">How do I unlock achievements?</string>
+    <string name="faq_a16">For location specific achievements, you must travel to the location linked to that achievement. Once you are close the location, press the &lt;b&gt;Location Nearby&lt;/b&gt; button, aim your camera at the location and press &lt;b&gt;Snap&lt;/b&gt;. This will unlock the achievement. For other achievements, follow the instructions in the achievement description.</string>
+
+    <string name="faq_q17">An achievement isn’t unlocking?</string>
+    <string name="faq_a17">Go to the &lt;b&gt;Achievements&lt;/b&gt; page and make sure the achievement isn\'t unlocked already (i.e. its logo is in colour). Otherwise try restarting the app and/or completing the achievement criteria again.</string>
+
+    <string name="faq_q18">Is the app also available for iPhones?</string>
+    <string name="faq_a18">No, unfortunately at this moment in time Northumberland GO! is only available for android devices. </string>
+
+    <string name="faq_q19">Should I be worried about the data I have given?</string>
+    <string name="faq_a19">Even though you have only provided us with your name, email and password, know that your information will be kept safe and never given to anyone. We will also never post anything to social media without your consent and will not require access to any more of your information during the rest of the time you use this app.</string>
+
+    <string name="faq_q20">Do I need to re-enable my custom settings each time I open the app?</string>
+    <string name="faq_a20">No, any of your custom settings (such as Dark Mode and your Default Mode of Transport) will be saved and kept active for the next time you log in to the app.</string>
+
+    <string name="faq_q21">What categories of location can I search for using &lt;b&gt;\'#\'&lt;/b&gt;?</string>
+    <string name="faq_a21">The list of categories you can search by are: &lt;b&gt;toilets&lt;/b&gt;, &lt;b&gt;film&lt;/b&gt;, &lt;b&gt;tv&lt;/b&gt;, &lt;b&gt;parking&lt;/b&gt;, &lt;b&gt;food&lt;/b&gt;, &lt;b&gt;disability&lt;/b&gt;, &lt;b&gt;nature&lt;/b&gt;, &lt;b&gt;history&lt;/b&gt;, &lt;b&gt;museum&lt;/b&gt;, &lt;b&gt;castle&lt;/b&gt;, &lt;b&gt;garden and hike&lt;/b&gt;.</string>
+
+    <string name="faq_q22">My question isn’t in the FAQ?</string>
+    <string name="faq_a22">More help can be found on our user guide listed on our website.&lt;br/&gt;http://homepages.cs.ncl.ac.uk/2018-19/CSC2022/Team12/website/</string>
+
+    <string name="faq_q23">Is the app endorsed by the attractions?</string>
+    <string name="faq_a23">Northumberland Go! is not endorsed by or affiliated with any of the attractions featured.</string>
+
+    <string name="faq_q24">How can I have my business featured on Northumberland Go?	</string>
+    <string name="faq_a24">Northumberland Go! is made on behalf of Northumberland County Council, who remain neutral and do not promote specific businesses. If you manage a non-profit-making Northumberland attraction, and would like it to be featured on Northumberland Go!, please contact us via the website.</string>
+
+
+    //Achievement
+    <string name="ach_t_1">Welcome To NGO!</string>
+    <string name="ach_d_1">Sign up to the app</string>
+    <string name="ach_c_1">I signed up on…</string>
+
+    <string name="ach_t_2">Arrived in one piece</string>
+    <string name="ach_d_2">Arrive at your first ever attraction </string>
+    <string name="ach_c_2">I visited my first attraction on…</string>
+
+    <string name="ach_t_3">Master Explorer </string>
+    <string name="ach_d_3">Travel to all Locations</string>
+    <string name="ach_c_3">I visited all the locations on…</string>
+
+    <string name="ach_t_4">Junior Explorer</string>
+    <string name="ach_d_4">Travel to 10 locations</string>
+    <string name="ach_c_4">I have travelled to 10 locations on…</string>
+
+    <string name="ach_t_5">Expedition</string>
+    <string name="ach_d_5">Take at least an hour to reach a Location on foot</string>
+    <string name="ach_c_5">I unlocked this achievement on…</string>
+
+    <string name="ach_t_6">Speed Runner</string>
+    <string name="ach_d_6">Reach your target destination in 5 minutes or less</string>
+    <string name="ach_c_6">I unlocked this achievement on…</string>
+
+    <string name="ach_t_7">Lazy Tourist</string>
+    <string name="ach_d_7">Drive less than a mile to a location</string>
+    <string name="ach_c_7">I unlocked this achievement on…</string>
+
+    <string name="ach_t_8">Late Night Stroll </string>
+    <string name="ach_d_8">Travel to any Walking Trail between 12am and 5am</string>
+    <string name="ach_c_8">I unlocked this achievement on</string>
+
+    <string name="ach_t_9">History Buff</string>
+    <string name="ach_d_9"> Visit any of the museums</string>
+    <string name="ach_c_9">I visited a museum on</string>
+
+    <string name="ach_t_10">Just fancied a drink</string>
+    <string name="ach_d_10">Arrive at any pub</string>
+    <string name="ach_c_10">I visited a pub on</string>
+
+    <string name="ach_t_11">That’s what you call a Lake</string>
+    <string name="ach_d_11">Visit Kielder Water</string>
+    <string name="ach_c_11">I visited Kielder Water on</string>
+
+    <string name="ach_t_12">Northumberland Knight </string>
+    <string name="ach_d_12">Visit all Castles</string>
+    <string name="ach_c_12">I have visited all castles on</string>
+
+    <string name="ach_t_13">Close but no Cigar</string>
+    <string name="ach_d_13">Started travelling to a location but abandoned it.</string>
+    <string name="ach_c_13">I unlocked this achievement on</string>
+
+    <string name="ach_t_14">Is this App not good enough?</string>
+    <string name="ach_d_14">Arrive at a Tourist Information Centre</string>
+    <string name="ach_c_14">I visited an information center on</string>
+
+    <string name="ach_t_15">Are we sure we’re in Northumberland? </string>
+    <string name="ach_d_15">Visit Newcastle Helix</string>
+    <string name="ach_c_15">I visited Newcastle Helix on</string>
+
+    <string name="ach_t_16">It’s all downhill from here.</string>
+    <string name="ach_d_16">Visit The Cheviot</string>
+    <string name="ach_c_16">I visited the Cheviot on</string>
+
+    <string name="ach_t_17">You’re a wizard Harry!</string>
+    <string name="ach_d_17">Visit Alnwick Castle</string>
+    <string name="ach_c_17">I visited Alnwick Castle on</string>
+
+    <string name="ach_t_18">Long time no sea!</string>
+    <string name="ach_d_18">Visit Lindisfarne</string>
+    <string name="ach_c_18">I visited the holy island on</string>
+
+    <string name="ach_t_19">Walk of the Roses</string>
+    <string name="ach_d_19">Visit Dunstanburgh Castle</string>
+    <string name="ach_c_19">I visited Dunstanburgh Castle on</string>
+
+    <string name="ach_t_20">What’s your poison?</string>
+    <string name="ach_d_20">Visit Alnwick Gardens</string>
+    <string name="ach_c_20">I visited Alnwick gardens on</string>
+
+    <string name="ach_t_21">Time to mine! </string>
+    <string name="ach_d_21">Visit Woodhorn Museum</string>
+    <string name="ach_c_21">I visited Woodhorn Museum on</string>
+
+    <string name="ach_t_22">Turn down for what?</string>
+    <string name="ach_d_22">Visit Bagpipe Museum</string>
+    <string name="ach_c_22">I visited Bagpipe Museum on</string>
+
+    <string name="ach_t_23">Just going for a short walk.</string>
+    <string name="ach_d_23">Visit Yeavering Bell</string>
+    <string name="ach_c_23">I visited Yeavering Bell on</string>
+
+    <string name="ach_t_24">That’s a big pet.</string>
+    <string name="ach_d_24">Visit Whitehouse Farm</string>
+    <string name="ach_c_24">I visited Whitehouse Farm on</string>
+
+    <string name="ach_t_25">Do we have to walk it?</string>
+    <string name="ach_d_25">Visit Hadrian’s Wall</string>
+    <string name="ach_c_25">I visited Hadrian’s Wall on</string>
+
+    <string name="ach_t_26">"I am married. To England"</string>
+    <string name="ach_d_26">Visit Bamburgh Castle</string>
+    <string name="ach_c_26">I visited Bamburgh Castle on</string>
+
+    <string name="ach_t_27">Is this mainstream?</string>
+    <string name="ach_d_27">Visit Haydon’s Bridge</string>
+    <string name="ach_c_27">I visited Haydon’s Bridge on</string>
+
+    <string name="ach_t_28">Fancy a cuppa?</string>
+    <string name="ach_d_28">Visit Howick Gardens</string>
+    <string name="ach_c_28">I visited Howick Gardens on</string>
+
+    //Directions
+    <string name="directionsApiKey">AIzaSyADtlZISmQeiknt61o3xQCXvQE1t1dl6Ng</string>
+
+    //Database
+    <string name="db_child">preference</string>
+    <string name="db_err">Database Connection Error. Code</string>
+
+    //Main Activity
+    <string name="ma_login_error">ID Checking Error</string>
+    <string name="ma_default_achievement">1</string>
+    <string name="ma_log_req">logRequest</string>
+    <string name="ma_true">true</string>
+    <string name="ma_false">false</string>
+
+    //Home Activity
+    <string name="ha_loc_1_name">The Cheviot</string>
+    <string name="ha_loc_1_date">N/A</string>
+    <string name="ha_loc_1_short">The highest point in Northumberland, around a mile away from the Scottish border.</string>
+    <string name="ha_loc_1_long">At a height of 815.3 metres, The Cheviot claims the title as the highest point in the county of northumberland, but is often just referred to as a ‘bog’. However, this gigantic peak has more history than meets the eye. As well as being an age-old extinct volcano, the peak has also played a large part in recent history, acting as the crash site of a Boeing B-17 Bomber during the second world war. Although most of the wreckage has since been removed from the site, there are still some pieces of the aircraft which are visible.</string>
+
+    <string name="ha_loc_2_name">Hadrian\'s Wall</string>
+    <string name="ha_loc_2_date">128 AD</string>
+    <string name="ha_loc_2_short">A megastructure which was the former north-west frontier of the roman empire.</string>
+    <string name="ha_loc_2_long">One of England\'s greatest landmarks, Hadrian\'s Wall stretches 73 miles and still remains strong after being built in 128 AD. It is a UNESCO World Heritage site and is filled with archaeological sites and history from start to finish. The Wall\'s pure stature has inspired popular modern day media such as Game of Thrones, and has always claimed a spot on any list of must-see attractions. Contrary to popular belief, Hadrian\'s Wall does not mark the English/Scottish border.</string>
+
+    <string name="ha_loc_3_name">Haydon Bridge</string>
+    <string name="ha_loc_3_date">1190 AD</string>
+    <string name="ha_loc_3_short">A small village situated near major Northumberland attractions with the South Tyne river at its heart.</string>
+    <string name="ha_loc_3_long">Despite what many people think, Haydon Bridge is not actually a bridge, but instead a small village divided by the South Tyne river. The village is however named after Old Haydon Bridge which was originally erected in the medieval era but replaced in 1776 and has been subject to many repairs over the years. It has now been restricted to pedestrian use and offers beautiful views of the village and river. Haydon Bridge was the birthplace of famous painter John Martin, known for paintings such as The Destruction of Pompeii and Herculaneum and The Plains of Heaven. The luxurious Langley Castle Hotel is just around the corner, making Haydon Village a location packed with history and sites.</string>
+
+    <string name="ha_loc_4_name">Alnwick Castle</string>
+    <string name="ha_loc_4_date">1096 AD</string>
+    <string name="ha_loc_4_short">The second largest inhabited castle in the country, used in Films &amp; Television Programmes such as Harry Potter and Downton Abbey.</string>
+    <string name="ha_loc_4_long">Alnwick Castle is the family home of the Percy’s, or more commonly, the seat of the Duke and Duchess of Northumberland. It has been their family’s home for over 700 years, and has played host to many iconic characters from the big and small screen, such as Harry Potter, The Crawley Family from Downton Abbey, and more recently even Transformers. This has been incorporated into the regular goings on in Alnwick Castle, with Broomstick Lessons and the ‘Dragons’ Quest’ activity suitable for the whole family. The castle has a poisonous garden where a wide range of plants such as nightshade and hemlock grow, supposedly included by the Duchess to educate others about how dangerous plants can be. Parking is £3 if you are driving to this location, and family tickets to gain access to everything the castle has to offer are less than £50.</string>
+
+    <string name="ha_loc_5_name">The Holy Island Of Lindisfarne</string>
+    <string name="ha_loc_5_date">1550 AD</string>
+    <string name="ha_loc_5_short">A tidal island featuring medieval ruins, a castle and a nature reserve.</string>
+    <string name="ha_loc_5_long">Located a few miles from Northumberland’s coast, the holy island is cut off twice a day from the mainland by the tide. The island is home to a quaint village and the ruins of 12th century Lindisfarne Priory, an important hub of Christianity in Anglo-Saxon England. In the rocks at the tip of the island visitors will find Lindisfarne castle. Built in the 16th century, today it is a National Trust site boasting stunning architecture and breathtaking views. As well as plenty of history, the island includes The Lindisfarne National Nature Reserve. This is an area formed by shifting tides and sands combining to form 3500 hectares of saltmarsh, mudflats and dunes. This unique habitat is home to an equally unique combination of wildlife.</string>
+
+    <string name="ha_loc_6_name">Bamburgh Castle</string>
+    <string name="ha_loc_6_date">420 AD</string>
+    <string name="ha_loc_6_short">This Grade I listed building was once home to the kings of Northumberland.</string>
+    <string name="ha_loc_6_long">For a castle, much of the structure is relatively recent. With a history stretching back to approximately the 5th century, the castle was bought and restored in the Victorian era by industrialist Lord Armstrong whose family still owns it to this day. The castle’s majesty has attracted film crews including “Elizabeth” starring Cate Blanchett. Inside the castle there are 14 public rooms containing over 2,000 artefacts. Also inside are a museum, an art gallery, a cafeteria and much more. Outside the castle there’s also a lot to do including trails, cafes and beaches. Frequent archaeological digs are carried out on the site, which everyone can have a go at.</string>
+
+    <string name="ha_loc_7_name">Dunstanburgh Castle</string>
+    <string name="ha_loc_7_date">1313 AD</string>
+    <string name="ha_loc_7_short">Castle ruins which once formed  the largest and grandest fortifications in Northern England.</string>
+    <string name="ha_loc_7_long">Construction originally started by Earl Thomas of Lancaster in 1313 as a symbol of his opposition to the monarch, King Edward II. However, Lancaster was defeated in his rebellion and was taken and executed in 1322. The castle was passed on to John of Gaunt who remodelled the twin towered gatehouse into a keep. During the Wars of the Roses, Yorkist forces captured and occupied the castle twice before it deteriorated to its current state. The location offers a great picnic area and links up to coastal walks, which have been ranked within the top 100 walks in the UK. For the not so faint of heart there is a Ghost Walk leading up to the castle where many people believe a knight still haunts the ruins.</string>
+
+    <string name="ha_loc_8_name">Kielder Water And Forest Park</string>
+    <string name="ha_loc_8_date">1975 AD - 1981 AD</string>
+    <string name="ha_loc_8_short">A nature park that houses the largest man-made lake in Northern Europe and the largest forest in England.</string>
+    <string name="ha_loc_8_long">The park features walking trails and bike tracks all across the area for all the family to enjoy. The 26 mile trail, Lakeside Way is perfect for walkers, cyclists, horse riders and wheelchair users who prefer the shoreline of Kielder Water. A popular habitat for wildlife, Kielder Water &amp; Forest Park houses the Kielder Super Six consisting of osprey, pipistrelle bats, roe deer, salmon, deer and red squirrels. Additionally, the park is also the home to around 50% of England’s native red squirrel population. The forest itself is the largest in England, spanning 250 square miles and accounts for a quarter of our timber production. If you decide to stay here past sunset, the magnificent Kielder Observatory will allow you to become an expert stargazer.</string>
+
+    <string name="ha_loc_9_name">Alnwick Gardens</string>
+    <string name="ha_loc_9_date">1750 AD</string>
+    <string name="ha_loc_9_short">A contemporary garden including water sculptures and over 4,000 varieties of plant.</string>
+    <string name="ha_loc_9_long">Conceived by the Duchess of Northumberland, the Alnwick Garden is truly a 21st century public garden, boasting astonishing beauty, traditional symmetry, as well as quirkiness and interaction. The garden stimulates all of the senses, with thousands of seasonal plants and opportunities to cool off in the water sculptures of the Serpent Garden. Those looking for tranquillity can enjoy the Cherry Orchard or Rose Garden, or for more excitement and intrigue there’s the Bamboo Labyrinth and the Poison Garden, where visitors can observe a collection of lethal plants. The wooden Treehouse, which is Europe’s largest, contains a restaurant and has full wheelchair access.</string>
+
+    <string name="ha_loc_10_name">Howick Gardens</string>
+    <string name="ha_loc_10_date">1400 AD</string>
+    <string name="ha_loc_10_short">The ancestral seat of the Earls Grey since 1319. Home of Charles 2nd Earl Grey, Prime Minister of the United Kingdom, November 1830 to July 1834.</string>
+    <string name="ha_loc_10_long">The Howick Hall Gardens were created by the 5th Earl Grey and his family. Voted as the ‘Garden of the Year’ by Garden Museum and Gardens Illustrated magazine in 2009, the gardens have also been featured in BBC Gardeners’ World magazine and The Independent newspaper of best ten gardens to visit in spring. The arboretum, first opened on 1st April 2006 (later with a formal opening by Roy Lancaster on 29th April), expands across 65 acres of land, filled with around 11,000 shrubs and trees from about 1,800 taxa planted in six geographical groups.</string>
+
+    <string name="ha_loc_11_name">Woodhorn Museum</string>
+    <string name="ha_loc_11_date">1979 AD</string>
+    <string name="ha_loc_11_short">Houses the Northumberland Archives and acts as a tribute to Woodhorn’s mining heritage.</string>
+    <string name="ha_loc_11_long">Woodhorn stands as the North East’s last remaining coal mining heritage. At its peak, the local mining site employed 2,000 people underground where a mass of 600,000 tonnes of coal was mined each year. The Cutter Building at the museum, features a notable banner collection and a moving sculpture made up of miner’s gloves, moulded into 98 birds in remembrance of lives lost at Woodhorn Colliery. Woodhorn Museum houses the Ashington Group Collection of artworks also known as the ‘Pitmen Painters’. The exhibition stands as a representation of life for Ashington miners during the 1930s. There is a cafe where parents can relax while their children visit the play area, and four museums in total with over 25,000 objects to keep any history buff satisfied.</string>
+
+    <string name="ha_loc_12_name">Bagpipe Museum</string>
+    <string name="ha_loc_12_date">1300 AD</string>
+    <string name="ha_loc_12_short">The Morpeth Chantry Bagpipe Museum exhibits the history and development of bagpipes.</string>
+    <string name="ha_loc_12_long">The very first bagpipe museum in the UK features a large collection of bagpipes and explores the local history and art of Northumberland through their exhibitions. On display here, there sits an extensive collection of pipes from master clockmaker and pipe enthusiast, William Alfred Cocks, another set of bagpipes that belonged to King Louis XIV, a miniature set made for Queen Mary’s Dolls’ House and also pipes from the Jacobite Rising. Special events and performances are also a key attraction for the museum. The museum’s building has a bit of history in itself, being home to the oldest window in the whole of Morpeth.</string>
+
+    <string name="ha_loc_13_name">Yeavering Bell</string>
+    <string name="ha_loc_13_date">N/A</string>
+    <string name="ha_loc_13_short">Twin-peaked hill that houses remains to the largest Iron Age hillfort in the region.</string>
+    <string name="ha_loc_13_long">Yeavering Bell forms a part of the Cheviots Hills as it lies just at the very edge of the rolling hills. The hills have been suggested to be site of religious importance in the Iron Age. The walk up the hill can be quite strenuous due to the elevation, however the views on top of the hill are extremely attractive to visitors of the range. While walking up the hill, visitors may see the remains of stone huts and, if lucky, a herd of wild goats grazing. The summit is almost 1200 feet above sea level and surrounded by a prehistoric stone wall and its name comes from the Saxon site of Yeavering which the summit overlooks.</string>
+
+    <string name="ha_loc_14_name">Whitehouse Farm</string>
+    <string name="ha_loc_14_date">1997 AD</string>
+    <string name="ha_loc_14_short">Farm centre that features a wide variety of traditional and exotic animals for all ages to visit.</string>
+    <string name="ha_loc_14_long">Whitehouse Farm is Northumberland\'s largest family run farm attraction, spreading over 40 acres. The farm features a large collection of animals including traditional farm animals and more exotic species. On the site, there are also many child-friendly attractions such as pedal tractors, go-karts and other playground facilities, while indoors there is a safe play section for younger children. The farm itself used to be one of the biggest producers of eggs in the region, originally starting out as a Chicken Farm. Their roots of home grown food are still present through the Whitehouse Farm Kitchen, where visitors can buy food throughout the day and meet fellow tourists.</string>
+
+    <string name="ha_loc_15_name">Newcastle Helix</string>
+    <string name="ha_loc_15_date">2016 AD</string>
+    <string name="ha_loc_15_short">An exemplar project in urban development in the digital age, Newcastle Helix is comprised of world leaders in science, technology and research.</string>
+    <string name="ha_loc_15_long">Originally Science Central, Newcastle Helix is “the only city centre quarter of its kind in the UK” and is home to multi-million pound sites such as the Urban Sciences Building and the upcoming National Innovation Centre for Data. The Helix is situated amidst new affordable student accommodation and is only minutes away from Newcastle city centre, along with shops galore within intu Eldon Square. Costing around £350 million from a joint partnership between Newcastle City Council and the University, Newcastle Helix aims to promote first class education and research in a futuristic environment, alongside a flourishing commercial and residential city.</string>
+
+    <string name="ha_tag_hike">Hike</string>
+    <string name="ha_tag_nature">Nature</string>
+    <string name="ha_tag_outdoors">Outdoors</string>
+    <string name="ha_tag_history">History</string>
+    <string name="ha_tag_heritage">Heritage</string>
+    <string name="ha_tag_film">Film</string>
+    <string name="ha_tag_tv">TV</string>
+    <string name="ha_tag_museum">Museum</string>
+    <string name="ha_tag_castle">Castle</string>
+    <string name="ha_tag_garden">Garden</string>
+    <string name="ha_tag_food">Food</string>
+    <string name="ha_tag_toilets">Toilets</string>
+    <string name="ha_tag_disability">Disability</string>
+    <string name="ha_tag_parking">Parking</string>
+    <string name="ha_tag_free">Free</string>
+
+    <string name="ha_frag_map">MAP</string>
+    <string name="ha_frag_rec">RECENT</string>
+    <string name="ha_frag_ach">ACHIEVEMENT</string>
+    <string name="ha_frag_set">SETTINGS</string>
+    <string name="ha_frag_hel">HELP</string>
+
+    <string name="ha_camera_error">Error With Camera</string>
+    <string name="ha_camera_handler">changed Preview</string>
+
+    <string name="ha_map_error">Error With Map</string>
+    <string name="ha_map_theme_error">Theme Application</string>
+    <string name="ha_map_theme_response">Style Parsing Failed</string>
+
+    <string name="ha_toast_upright">Your phone is not upright!</string>
+    <string name="ha_toast_connection">Timed out, try again when you have a good connection</string>
+    <string name="ha_toast_interrupt">Connection interrupted, try again</string>
+    <string name="ha_toast_api">API Error, please contact the developers with code - 1337</string>
+
+    <string name="ha_nearby_empty">No Places Nearby :(</string>
+
+    <string name="ha_tut_start">Start Tutorial</string>
+    <string name="ha_tut_mid">Next</string>
+    <string name="ha_tut_end">Okay, got it</string>
+
+    <string name="ha_search_tag">#</string>
+    <string name="ha_search_place">\@</string>
+    <string name="ha_search_all">#all</string>
+
+    <string name="ha_search_fail">No Results Found :(</string>
+
+    <string name="ha_translate_x">translationX</string>
+    <string name="ha_translate_y">translationY</string>
+
+    <string name="ha_directions_time">Time: </string>
+    <string name="ha_directions_distance">\nDistance: </string>
+
+    <string name="ha_achievement_unlock">You just unlocked a new achievement!</string>
+    <string name="ha_achievement_lock">You have already unlocked this achievement</string>
+
+    //Recent Places
+    <string name="rp_attraction_name">Nothing to see here</string>
+    <string name="rp_attraction_date">N/A"</string>
+    <string name="rp_attraction_short">You have not visited any places yet</string>
+    <string name="rp_set_fragment">MAP"</string>
+
+    //Achievement
+    <string name="a_certificate_url">http://homepages.cs.ncl.ac.uk/2018-19/CSC2022/Team12/website/certificate/certificate.php?achievementid=</string>
+    <string name="a_certificate_append_day">&amp;d=</string>
+    <string name="a_certificate_append_month">&amp;m=</string>
+    <string name="a_certificate_append_year">&amp;y=</string>
+    <string name="a_certificate_quote">Checkout my NorthumberlandGo achievement certificate!\n</string>
+    <string name="a_popup_style">text/plain</string>
+    <string name="a_popup_subject">Sharing URL</string>
+    <string name="a_popup_action">Share Certificate</string>
+
+</resources>

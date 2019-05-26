@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_achievement"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/theme_dark_background">
+
+    <ListView
+        android:id="@+id/fragment_achievement_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp" />
+
+    <LinearLayout
+        android:id="@+id/fragment_achievement_mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/fragment_achievement_pop"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:background="@drawable/theme_dark_button_square_v2"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/fragment_achievement_pop_up"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="1dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/fragment_achievement_pop_up_view"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/fragment_achievement_pop_up_view_text"
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:gravity="center_vertical"
+                    android:padding="8dp"
+                    android:text=""
+                    android:textSize="24sp"
+                    android:fontFamily="cursive" />
+
+                <Button
+                    android:layout_gravity="start"
+                    android:id="@+id/fragment_achievement_pop_up_view_close"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:background="@android:drawable/ic_menu_close_clear_cancel" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/fragment_achievement_pop_up_badge"
+                android:layout_width="230dp"
+                android:layout_height="230dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp" />
+
+            <RelativeLayout
+                android:id="@+id/fragment_achievement_pop_up_certificate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/fragment_achievement_pop_up_certificate_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="cursive"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="5dp"
+                    android:text="@string/council_signature"
+                    android:textSize="20sp"/>
+
+                <Button
+                    android:id="@+id/fragment_achievement_pop_up_facebook_share"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="12dp"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="@drawable/com_facebook_button_icon_blue" />
+
+                <Button
+                    android:id="@+id/fragment_achievement_pop_up_share"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="48dp"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="@drawable/ic_share" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Tutorial overlay -->
+    <LinearLayout
+        android:id="@+id/fragment_achievement_tutorial"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/theme_dark_button_square_v2"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+    <LinearLayout
+        android:id="@+id/fragment_achievement_tutorial_close"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/fragment_achievement_tutorial_close_button"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@android:drawable/ic_menu_close_clear_cancel"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fragment_achievement_tutorial_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/fragment_achievement_tutorial_content_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/achievement_help"
+            android:paddingBottom="5dp"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/fragment_achievement_tutorial_content_body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="12dp"
+            android:textSize="16sp"
+            android:text="@string/achievement_tutorial"/>
+
+    </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

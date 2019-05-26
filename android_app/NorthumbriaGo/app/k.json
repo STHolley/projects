@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "521749379815",
+    "firebase_url": "https://northumbriago-9be82.firebaseio.com",
+    "project_id": "northumbriago-9be82",
+    "storage_bucket": "northumbriago-9be82.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521749379815:android:e125223590183399",
+        "android_client_info": {
+          "package_name": "uk.ac.ncl.b7030745.northumbriago"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "521749379815-6pjlosj25e372vb7v7b95f2lr5kkan5u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "uk.ac.ncl.b7030745.northumbriago",
+            "certificate_hash": "770a95d04d9304b5e5f5e74731c04d58f9f9c985"
+          }
+        },
+        {
+          "client_id": "521749379815-0vfbiepsqirtq9a6si99h2qv9p27fa7k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApHXrVbUxIEqQJbvOuzEjat0qnTrUvi40"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "521749379815-0vfbiepsqirtq9a6si99h2qv9p27fa7k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

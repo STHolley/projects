@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/itm_drawer_map"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/itm_drawer_recent_places"
+            android:icon="@drawable/ic_recent_places"
+            android:title="@string/recent_places" />
+        <item
+            android:id="@+id/itm_drawer_achievements"
+            android:icon="@drawable/ic_achievement"
+            android:title="@string/achievement" />
+        <item
+            android:id="@+id/itm_drawer_settings"
+            android:icon="@drawable/ic_setting"
+            android:title="@string/settings" />
+        <item
+            android:id="@+id/itm_drawer_help"
+            android:icon="@drawable/ic_help"
+            android:title="@string/help" />
+
+    <item
+        android:id="@+id/tutorial"
+        android:icon="@drawable/ic_tutorial"
+        android:title="@string/tutorial" />
+
+</group>
+</menu>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "54971742408",
+    "firebase_url": "https://northumberlandgo.firebaseio.com",
+    "project_id": "northumberlandgo",
+    "storage_bucket": "northumberlandgo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:54971742408:android:12595b8dd60adf3e",
+        "android_client_info": {
+          "package_name": "uk.ac.ncl.team12.northumbriaGo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "54971742408-s124gkudj0atrv83rvtk4khvqn14bitv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIN0PisRmzBv0LsQ8qdbmg_YH_kzQAGJ4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

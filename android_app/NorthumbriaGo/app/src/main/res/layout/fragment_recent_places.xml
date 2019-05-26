@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecentPlacesFragment"
+    android:id="@+id/fragment_recent_places">
+
+    <ListView
+        android:id="@+id/fragment_recent_places_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp" />
+
+    <LinearLayout
+        android:id="@+id/fragment_recent_places_mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:visibility="gone" />
+
+    <!-- Tutorial overlay -->
+    <LinearLayout
+        android:id="@+id/fragment_recent_places_tutorial"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/theme_dark_button_square_v2"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/fragment_recent_places_tutorial_close"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/fragment_recent_places_tutorial_close_button"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@android:drawable/ic_menu_close_clear_cancel"
+                android:padding="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fragment_recent_places_tutorial_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/fragment_recent_places_tutorial_content_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Recent Places Help"
+                android:paddingBottom="5dp"
+                android:textSize="24sp"/>
+
+            <TextView
+                android:id="@+id/fragment_recent_places_tutorial_content_body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="12dp"
+                android:textSize="16sp"
+                android:text="@string/recent_places_tutorial"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

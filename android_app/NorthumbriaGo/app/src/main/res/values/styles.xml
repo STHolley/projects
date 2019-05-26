@@ -1,0 +1,44 @@
+<resources>
+    <style name="theme_dark_navigation" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:colorPrimary">@color/colorDarkPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorDarkSecondary</item>
+        <item name="android:navigationBarColor">@color/colorDarkPrimary</item>
+        <item name="android:textColorPrimary">@color/colorDarkAccent</item>
+        <item name="android:textColorSecondary">@color/colorLightAccent</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:colorBackground">@color/colorDarkTranslucent</item>
+    </style>
+    <style name="theme_light_navigation" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:colorPrimary">@color/colorLightPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorLightSecondary</item>
+        <item name="android:navigationBarColor">@color/colorLightPrimary</item>
+        <item name="android:textColorPrimary">@color/colorLightAccent</item>
+        <item name="android:textColorSecondary">@color/colorLightAccent</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:colorBackground">@color/colorLightTranslucent</item>
+    </style>
+    <style name="appTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:colorPrimary">@color/colorLightAccent</item>
+        <item name="android:colorPrimaryDark">@color/colorLightAccent</item>
+        <item name="android:colorAccent">@color/colorDarkAccent</item>
+        <item name="android:navigationBarColor">@color/colorLightAccent</item>
+        <item name="android:textColorPrimary">@color/colorDarkAccent</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:colorBackground">@color/colorLightPrimary</item>
+    </style>
+    <style name="fire_dark" parent="Theme.AppCompat.NoActionBar" >
+        <item name="android:windowBackground">@drawable/theme_dark_background</item>
+        <item name="android:textColor">@color/colorDarkAccent</item>
+        <item name="android:navigationBarColor">@color/colorLightAccent</item>
+        <item name="android:colorPrimary">@color/colorLightAccent</item>
+        <item name="android:colorPrimaryDark">@color/colorLightAccent</item>
+    </style>
+    <style name="fire_light" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/theme_light_background</item>
+        <item name="android:textColor">@color/colorDarkAccent</item>
+        <item name="android:navigationBarColor">@color/colorLightAccent</item>
+        <item name="android:colorPrimary">@color/colorLightAccent</item>
+        <item name="android:colorPrimaryDark">@color/colorLightAccent</item>
+
+    </style>
+</resources>
